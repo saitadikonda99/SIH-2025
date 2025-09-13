@@ -2,7 +2,7 @@ import React from 'react'
 
 import './page.css'
 import Navbar from '@/app/components/chat/navbar/navbar'
-
+import HeroSection from '@/app/components/chat/herosection'
 const page = () => {
   return (
       <div className="ChatComponent">
@@ -17,7 +17,7 @@ const page = () => {
                       <Navbar />
                     </div>
                     <div className="chat-two-content">
-                      <h1>This is Chat Content</h1>
+                      <HeroSection />
                     </div>
                     <div className="chat-two-input">
                       <input type="text" placeholder='Type your message here...' />
