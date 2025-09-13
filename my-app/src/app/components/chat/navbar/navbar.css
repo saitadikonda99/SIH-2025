@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.ChatNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width: 100%;
+    /* padding: auto; */
+}
+
+.ChatNavbar-in {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 20px; */
+}
+
+.ChatNavbar-in-one{
+    width: 40%;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    /* background-color: tomato; */
+}
+
+.ChatNavbar-in-one-a h1{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.ChatNavbar-in-one-b button{
+    padding: 3px 7px;
+    border: .5px solid grey;
+    color: grey;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ChatNavbar-in-two{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3.5rem;
+    gap: 1.5rem;
+}
+
+.ChatNavbar-in-two-a{
+    display: flex;
+    align-items: center;
+    /* gap: 7px; */
+    
+}
+
+.ChatNavbar-in-two button{
+    padding: 3px 7px;
+    border: .5px solid grey;    
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13.5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.ChatNavbar-in-two-c button{
+    background-color: #383838;
+    color: white;
+}
