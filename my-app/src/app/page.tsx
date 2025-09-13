@@ -1,10 +1,13 @@
-import Image from "next/image";
+
+
+import HomePage from "./ui/home/home";
+import Chat from "./(pages)/chat/page";
 
 export default function Home() {
   return (
       <div className="HomeComponent">
         <div className="HomeComponent-in">
-          <h1>Initial Setup</h1> 
+          <HomePage />
         </div>
       </div>
   );
