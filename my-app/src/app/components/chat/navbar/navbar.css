@@ -1,18 +1,18 @@
-*{
+/* Navbar Styles - Keeping Original Structure */
+* {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
 
-.ChatNavbar{
+.ChatNavbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: yellowgreen; */
     height: 100%;
     width: 100%;
-    /* padding: auto; */
+    padding: 0 1.5rem;
 }
 
 .ChatNavbar-in {
@@ -21,66 +21,80 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 10px 20px; */
 }
 
-.ChatNavbar-in-one{
+.ChatNavbar-in-one {
     width: 40%;
-    padding: 20px;
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 7px;
-    /* background-color: tomato; */
+    gap: 8px;
 }
 
-.ChatNavbar-in-one-a h1{
-    font-size: 15px;
+.ChatNavbar-in-one-a h1 {
+    font-size: 18px;
     font-weight: 600;
-    color: #333;
+    color: #1f2937;
+    margin: 0;
 }
 
-.ChatNavbar-in-one-b button{
-    padding: 3px 7px;
-    border: .5px solid grey;
-    color: grey;
+.ChatNavbar-in-one-b button {
+    padding: 4px 8px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    color: #6b7280;
     font-size: 12px;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.ChatNavbar-in-two{
+.ChatNavbar-in-one-b button:hover {
+    background: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+.ChatNavbar-in-two {
     width: 60%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 3.5rem;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
-.ChatNavbar-in-two-a{
+.ChatNavbar-in-two-a {
     display: flex;
     align-items: center;
-    /* gap: 7px; */
-    
 }
 
-.ChatNavbar-in-two button{
-    padding: 3px 7px;
-    border: .5px solid grey;    
-    font-weight: 600;
-    font-size: 12px;
-    border-radius: 5px;
+.ChatNavbar-in-two button {
+    padding: 6px 12px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    color: #374151;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 13.5px;
     display: flex;
     align-items: center;
-    gap: 5px;
-
+    gap: 6px;
+    transition: all 0.2s ease;
 }
 
-.ChatNavbar-in-two-c button{
-    background-color: #383838;
+.ChatNavbar-in-two button:hover {
+    background: #f9fafb;
+    border-color: #9ca3af;
+}
+
+.ChatNavbar-in-two-c button {
+    background-color: #1f2937;
     color: white;
+    border-color: #1f2937;
+}
+
+.ChatNavbar-in-two-c button:hover {
+    background-color: #374151;
+    border-color: #374151;
 }
